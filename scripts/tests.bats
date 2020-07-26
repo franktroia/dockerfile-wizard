@@ -101,3 +101,13 @@
 
   chromedriver --version
 }
+
+@test "dotnet" {
+  dotnet --version
+}
+@test "azure cli" {
+  az --version
+}
+@test "azure functions core tools" {
+  func --version
+}
